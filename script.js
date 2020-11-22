@@ -72,8 +72,6 @@ function lightmode(){
 
 
 
-// for
-
 //var
 let check = document.getElementById('idDiretor')
 let respDiretores = document.getElementById('respDiretores')
