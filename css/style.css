@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+html,body{margin:0; padding:0;box-shadow: none; background: var(--body-darkmode);}
+
+/* variaveis */
+
+:root {
+    --body-darkmode:#20142c;
+    --bg-darkmode:#27343A;
+    --text-darkmode:rgb(201, 201, 201);
+    --botao-darkmode: rgb(0, 139, 93);
+    --barra-darkmode:black;
+
+    --body-whitemode:rgb(201,201,201);
+    --bg-whitemode:#ffe5d9;
+    --text-whitemode:black;
+    --botao-whitemode:#0353a4;
+    --barra-whitemode:#3c096c;
+}
+
+
+
+
+/* imagens*/
+img{
+    width: 100%;
+    border-radius: 10px; 
+    z-index: 5;
+}
+.img{
+    
+    margin: 1% 5% 2% 5%;
+    display: grid;
+    justify-content: center;
+    grid-row: grip;
+}
+
+/* header */
+header{
+    background: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;}
+nav{
+    display: flex; 
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    margin:2% 1% 2% 1%;
+    padding: 0% 2% 0% 2%;
+    color: var(--text-darkmode);
+    font-size: 120%;
+    font-family: sans-serif;
+}
+nav a:hover{
+    color:rgb(219, 223, 0);
+    
+}
+
+
+/* main */
+.conteudo{
+    display: grid;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    background:var(--bg-darkmode);
+    padding: 0% 5% 3% 5%;
+    border-radius: 5px;
+}
+h1{
+   font-size: 180%;
+   text-align: center;
+   color:var(--text-darkmode);
+   font-family: sans-serif;
+}
+p{
+    font-size: 110%;
+    width: 100%;
+    color:var(--text-darkmode);
+    font-family: sans-serif;
+}
+
+/* section  switch*/
+input{
+     visibility: hidden;
+}
+
+label#switchL{
+    cursor: pointer;
+    color:white;
+    background:var(--botao-darkmode);
+    padding: 1% 3% 1% 3%;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 1% 0% 0% 0%;
+    font-family: sans-serif;
+    font-weight: 600;
+
+    display: block;
+    position: absolute;
+    translate: 80%;
+    right:1%;
+    top:0; 
+    
+}
+label:hover{
+    color:black;
+
+}
+
+label#lDiretor{
+    cursor: pointer;
+    color:white;
+    background: var(--botao-darkmode);
+    padding: 1% 3% 1% 3%;
+    border-radius: 15px;
+    width: fit-content;
+    
+    font-family: sans-serif;
+    font-weight: 600;
+
+    display: block;
+    
+}
+
+/* footer */
+
+footer{
+    background: black;
+    padding: 0.5%;
+    bottom: 0;
+    left: 0;
+
+}
+footer p{ 
+    text-align: center;
+    color:var(--text-darkmode);
+    font-size: 130%;
+}
+
+
+
