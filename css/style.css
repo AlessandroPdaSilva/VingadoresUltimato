@@ -12,7 +12,7 @@ html,body{margin:0; padding:0;box-shadow: none; background: var(--body-darkmode)
     --barra-darkmode:black;
 
     --body-whitemode:rgb(201,201,201);
-    --bg-whitemode:#ffe5d9;
+    --bg-whitemode:#f5f5f5;
     --text-whitemode:black;
     --botao-whitemode:#0353a4;
     --barra-whitemode:#3c096c;
